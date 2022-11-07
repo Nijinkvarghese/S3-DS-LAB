@@ -72,7 +72,7 @@ void main()
 	    void print(int t[10][3],int c)
 	    {
 	       int i;
-	       for (i=0;i<c;i++)
+	       for (i=0;i<=c;i++)
 	       {
 	          printf("%d\t%d\t%d\n",t[i][0],t[i][1],t[i][2]);
 	       }
@@ -86,7 +86,7 @@ void main()
 	        tr[0][2]=c;
 	        for (i=0;i<t[0][1];i++)
 	        
-	          for (j=1;j<c;j++)
+	          for (j=1;j<=c;j++)
 	          {
 	           if (i==t[j][1])
 	           {
